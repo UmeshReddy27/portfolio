@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umesh Eshwar Reddy | AI/ML Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header id="header" class="bg-black/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-slate-800">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center h-20">
+                <a href="#" class="text-2xl font-bold gradient-text">Umesh Eshwar Reddy</a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="nav-link text-slate-300 hover:text-white">About</a>
+                    <a href="#education" class="nav-link text-slate-300 hover:text-white">Education</a>
+                    <a href="#experience" class="nav-link text-slate-300 hover:text-white">Experience</a>
+                    <a href="#projects" class="nav-link text-slate-300 hover:text-white">Projects</a>
+                    <a href="#skills" class="nav-link text-slate-300 hover:text-white">Skills</a>
+                    <a href="#contact" class="nav-link text-slate-300 hover:text-white">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-900/95">
+            <a href="#about" class="block py-3 px-4 text-slate-300 hover:bg-slate-800 hover:text-white">About</a>
+            <a href="#experience" class="block py-3 px-4 text-slate-300 hover:bg-slate-800 hover:text-white">Experience</a>
+            <a href="#projects" class="block py-3 px-4 text-slate-300 hover:bg-slate-800 hover:text-white">Projects</a>
+            <a href="#skills" class="block py-3 px-4 text-slate-300 hover:bg-slate-800 hover:text-white">Skills</a>
+            <a href="#contact" class="block py-3 px-4 text-slate-300 hover:bg-slate-800 hover:text-white">Contact</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 pt-24">
+        <!-- Hero Section -->
+        <section id="home" class="min-h-[80vh] flex flex-col justify-center items-center text-center">
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-4">Umesh Eshwar Reddy</h1>
+            <h2 class="text-2xl md:text-4xl font-semibold mb-6">
+                <span class="gradient-text">AI/ML Developer</span>
+            </h2>
+            <p class="max-w-3xl text-slate-400 mb-8 text-lg">
+                Specializing in NLP, Deep Learning & Predictive Modeling. Passionate about building scalable AI solutions that solve real-world problems.
+            </p>
+            <div class="flex items-center space-x-4 mb-8">
+                <a href="https://github.com/UmeshReddy27" target="_blank" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="github" class="w-7 h-7"></i></a>
+                <a href="https://www.linkedin.com/in/umesh-eshwar-reddy-99b032251" target="_blank" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="linkedin" class="w-7 h-7"></i></a>
+                <a href="mailto:umeshreddy247@gmail.com" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="mail" class="w-7 h-7"></i></a>
+            </div>
+            <a href="my new resume.pdf" download="Umesh_Reddy_Resume.pdf" class="bg-sky-500 text-white font-semibold px-8 py-3 rounded-lg hover:bg-sky-600 transition-all duration-300 transform hover:scale-105">
+                Download Resume <i data-lucide="download" class="inline w-5 h-5 ml-2"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section py-20">
+            <div class="grid md:grid-cols-5 gap-12 items-center">
+                <div class="md:col-span-2">
+                    <img src="photo me.png" alt="Umesh Eshwar Reddy" class="rounded-lg shadow-lg w-full h-auto mx-auto object-cover">
+                </div>
+                <div class="md:col-span-3">
+                    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                    <p class="text-slate-400 mb-4">
+                        I'm a passionate Machine Learning enthusiast with a strong foundation in NLP, Computer Vision, and Deep Learning. I enjoy building scalable AI solutions that solve real-world problems — especially in healthcare and social impact domains.
+                    </p>
+                    <p class="text-slate-400">
+                        My goal is to continuously learn, innovate, and contribute to projects that push the boundaries of what AI can achieve. I take pride in writing clean, efficient code and believe in the power of collaboration to build something meaningful. Let's connect and build the future together.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section py-20">
+            <h2 class="text-3xl font-bold mb-12 text-center">Education</h2>
+            <div class="max-w-3xl mx-auto bg-slate-900/50 p-8 rounded-2xl border border-slate-800">
+                <div class="flex items-center gap-6">
+                    <div>
+                        <i data-lucide="graduation-cap" class="w-16 h-16 text-sky-400"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-white">Bachelor of Technology in Computer Science with Specialization in AI and Robotics</h3>
+                        <p class="text-sky-400 text-lg mb-1">VIT Chennai</p>
+                        <p class="text-slate-500">2021 - 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section py-20">
+            <h2 class="text-3xl font-bold mb-12 text-center">Experience & Certifications</h2>
+            <div class="relative max-w-3xl mx-auto">
+                <!-- Vertical line -->
+                <div class="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-slate-700"></div>
+                
+                <!-- Certification Item 1 -->
+                <div class="relative mb-12">
+                    <div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-sky-500 rounded-full mt-1.5"></div>
+                    <div class="p-6 bg-slate-900 rounded-lg shadow-lg border border-slate-800 md:w-[45%] md:ml-[55%]">
+                        <h3 class="text-xl font-semibold text-white">Artificial Intelligence</h3>
+                        <p class="text-sky-400 mb-2">Teachnook</p>
+                        <p class="text-sm text-slate-500 mb-3">Issued: July 2024</p>
+                        <ul class="list-disc list-inside text-slate-400 space-y-1">
+                            <li>Gained foundational understanding of Artificial Intelligence concepts and applications.</li>
+                            <li>Demonstrated knowledge of machine learning, neural networks, and real-world AI use cases.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Certification Item 2 -->
+                <div class="relative mb-12">
+                    <div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-sky-500 rounded-full mt-1.5"></div>
+                    <div class="p-6 bg-slate-900 rounded-lg shadow-lg border border-slate-800 md:w-[45%] md:ml-[55%]">
+                        <h3 class="text-xl font-semibold text-white">AWS Certified Cloud Practitioner</h3>
+                        <p class="text-sky-400 mb-2">Amazon Web Services</p>
+                        <p class="text-sm text-slate-500 mb-3">Issued: May 2025</p>
+                        <ul class="list-disc list-inside text-slate-400 space-y-1">
+                            <li>Validated foundational understanding of AWS Cloud concepts.</li>
+                            <li>Demonstrated knowledge of core AWS services, security, and billing.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Certification Item 3 -->
+                <div class="relative mb-12">
+                    <div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-sky-500 rounded-full mt-1.5"></div>
+                    <div class="p-6 bg-slate-900 rounded-lg shadow-lg border border-slate-800 md:w-[45%] md:ml-[55%]">
+                        <h3 class="text-xl font-semibold text-white">Power BI</h3>
+                        <p class="text-sky-400 mb-2">Office Master</p>
+                        <p class="text-sm text-slate-500 mb-3">Issued: May 2025</p>
+                        <ul class="list-disc list-inside text-slate-400 space-y-1">
+                            <li>Acquired proficiency in Power BI for data visualization and interactive dashboard creation.</li>
+                            <li>Demonstrated ability to connect, transform, and analyze data using DAX and Power Query.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Experience Item 1 -->
+                <div class="relative mb-12">
+                    <div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-sky-500 rounded-full mt-1.5"></div>
+                    <div class="p-6 bg-slate-900 rounded-lg shadow-lg border border-slate-800 ml-auto md:ml-0 md:w-[45%] md:mr-[5%]">
+                        <h3 class="text-xl font-semibold text-white">AWS Intern</h3>
+                        <p class="text-sky-400 mb-2">GetLDS | Chennai, India</p>
+                        <p class="text-sm text-slate-500 mb-3">June 2024 - Present</p>
+                        <ul class="list-disc list-inside text-slate-400 space-y-1">
+                            <li>Deploying and managing scalable ML models on AWS.</li>
+                            <li>Gaining hands-on experience in MLOps and serverless computing.</li>
+                            <li>Optimizing model performance and resource utilization in the cloud.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section py-20">
+            <h2 class="text-3xl font-bold mb-12 text-center">Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-slate-900 rounded-lg overflow-hidden border border-slate-800">
+                    <img src="https://placehold.co/600x400/1e293b/38bdf8?text=Postpartum Depression Prediction" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Postpartum Depression Prediction</h3>
+                        <p class="text-slate-400 mb-4 text-sm">Developed an NLP pipeline using BERT and XGBoost to predict postpartum depression from text, achieving high accuracy on an imbalanced dataset.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-sky-900/50 text-sky-300 text-xs font-semibold px-2.5 py-1 rounded-full">BERT</span>
+                            <span class="bg-sky-900/50 text-sky-300 text-xs font-semibold px-2.5 py-1 rounded-full">XGBoost</span>
+                            <span class="bg-sky-900/50 text-sky-300 text-xs font-semibold px-2.5 py-1 rounded-full">NLP</span>
+                        </div>
+                        <a href="https://github.com/UmeshReddy27/postpartum-depression-detection" target="_blank" class="text-sky-400 hover:text-sky-300 font-medium inline-flex items-center">View on GitHub <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card bg-slate-900 rounded-lg overflow-hidden border border-slate-800">
+                    <img src="Lunarlander.png" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white">DDQN Lunar Lander</h3>
+                        <p class="text-slate-400 mb-4 text-sm">Implemented a Double Deep Q-Network agent to master OpenAI Gym's Lunar Lander, using experience replay and target networks to stabilize training.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-indigo-900/50 text-indigo-300 text-xs font-semibold px-2.5 py-1 rounded-full">PyTorch</span>
+                            <span class="bg-indigo-900/50 text-indigo-300 text-xs font-semibold px-2.5 py-1 rounded-full">OpenAI Gym</span>
+                            <span class="bg-indigo-900/50 text-indigo-300 text-xs font-semibold px-2.5 py-1 rounded-full">RL</span>
+                        </div>
+                        <a href="https://github.com/UmeshReddy27/Lunar-lander" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium inline-flex items-center">View on GitHub <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card bg-slate-900 rounded-lg overflow-hidden border border-slate-800">
+                    <img src="https://placehold.co/600x400/1e293b/f472b6?text=News Summarizer" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white">News Summarizer Web App</h3>
+                        <p class="text-slate-400 mb-4 text-sm">Engineered a Flask web tool to summarize long news articles using NLTK for extractive summarization and Beautiful Soup for web scraping.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-pink-900/50 text-pink-300 text-xs font-semibold px-2.5 py-1 rounded-full">Flask</span>
+                            <span class="bg-pink-900/50 text-pink-300 text-xs font-semibold px-2.5 py-1 rounded-full">NLTK</span>
+                            <span class="bg-pink-900/50 text-pink-300 text-xs font-semibold px-2.5 py-1 rounded-full">Web Scraping</span>
+                        </div>
+                        <a href="https://github.com/UmeshReddy27/News-Summarizer" target="_blank" class="text-pink-400 hover:text-pink-300 font-medium inline-flex items-center">View on GitHub <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section py-20">
+            <h2 class="text-3xl font-bold mb-12 text-center">Technical Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
+                <div class="flex flex-col items-center space-y-2">
+                    <i data-lucide="code-2" class="w-12 h-12 text-sky-400"></i>
+                    <p class="font-semibold">Python</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <i data-lucide="brain-circuit" class="w-12 h-12 text-sky-400"></i>
+                    <p class="font-semibold">TensorFlow & PyTorch</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <i data-lucide="database" class="w-12 h-12 text-sky-400"></i>
+                    <p class="font-semibold">Scikit-learn</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <i data-lucide="cloud" class="w-12 h-12 text-sky-400"></i>
+                    <p class="font-semibold">AWS</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <i data-lucide="bot" class="w-12 h-12 text-sky-400"></i>
+                    <p class="font-semibold">Generative AI</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <i data-lucide="bar-chart-2" class="w-12 h-12 text-sky-400"></i>
+                    <p class="font-semibold">PowerBI</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <i data-lucide="server" class="w-12 h-12 text-sky-400"></i>
+                    <p class="font-semibold">Flask & Streamlit</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <i data-lucide="git-branch" class="w-12 h-12 text-sky-400"></i>
+                    <p class="font-semibold">Git & GitHub</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section py-20">
+            <div class="text-center max-w-3xl mx-auto bg-slate-900/50 p-8 md:p-12 rounded-2xl border border-slate-800">
+                <h2 class="text-4xl font-bold mb-4">
+                    Let's Connect & <span class="gradient-text-contact">Collaborate</span>
+                </h2>
+                <p class="text-slate-400 mb-8">
+                    I'm always open to discussing new ideas, opportunities, or ways to bring value to your team. Feel free to reach out.
+                </p>
+                <div class="flex justify-center items-center space-x-6 mb-8">
+                    <a href="https://github.com/UmeshReddy27" target="_blank" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="github" class="w-7 h-7"></i></a>
+                    <a href="https://www.linkedin.com/in/umesh-eshwar-reddy-99b032251" target="_blank" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="linkedin" class="w-7 h-7"></i></a>
+                </div>
+                <a href="mailto:umeshreddy247@gmail.com" class="bg-violet-600 text-white font-semibold px-8 py-4 rounded-lg hover:bg-violet-700 transition-all duration-300 transform hover:scale-105 inline-flex items-center gap-2">
+                    Email Me <i data-lucide="send" class="w-5 h-5"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8">
+        <div class="container mx-auto px-4 text-center text-slate-500">
+            <p>&copy; 2025 Umesh Eshwar Reddy. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="bg-sky-500/80 hover:bg-sky-500 text-white p-3 rounded-full shadow-lg transition-all duration-300">
+        <i data-lucide="arrow-up" class="w-6 h-6"></i>
+    </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
